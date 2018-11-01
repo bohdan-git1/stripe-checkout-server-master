@@ -1,0 +1,37 @@
+{
+  "name": "stripe-checkout-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Stripe checkout server for those who don't/can't have their own server side code (like due to usage of GoDaddy's website builder)",
+  "engines": {
+    "node": "7.7.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gh_clthck:clthck/stripe-checkout-server.git"
+  },
+  "keywords": [
+    "stripe",
+    "stripe-server"
+  ],
+  "author": "darkturtle",
+  "license": "MIT",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "koa": "^2.1.0",
+    "koa-body": "^2.0.0",
+    "koa-router": "^7.0.1",
+    "stripe": "^4.15.0"
+  },
+  "devDependencies": {
+    "pryjs": "^1.0.3"
+  }
+}
